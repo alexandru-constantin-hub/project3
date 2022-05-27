@@ -18,7 +18,7 @@ export default function Create() {
     }
     return (
         <div>
-            <form>
+            <form className='mb-4'>
                 <div className='form-group'>
                     <label>Nome</label>
                     <input placeholder='Nome' onChange={(e) => setNome(e.target.value)}/>

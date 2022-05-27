@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Create from './components/Create';
-import ReadAll from './components/ReadAll';
+import Login from './components/Login';
+
 
 function App() {
   return (
     <>
-      <Create />
-      <ReadAll />
+      <Login />
+
     </>
   );
 }
